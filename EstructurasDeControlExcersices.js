@@ -1,8 +1,3 @@
-// Landscape or Portrait
-function isLandScape (width, height) {
-
-}
-
 // FizzBuzz algoritmo
 /**
  * Divisible entre 3 => Fizz
@@ -12,6 +7,28 @@ function isLandScape (width, height) {
  * No es un numero => 'Not es un numero'
  * 
  */
+function fizzBuzz(numero) {
+
+    if (typeof numero !== "number") {
+      console.log("Not a number");
+      return;
+    }
+  
+    if (numero % 3 == 0 && numero % 5 == 0) {
+      console.log("FizzBuzz")
+    }
+    else if (numero % 5 == 0) {
+      console.log("Buzz")
+    }
+    else if (numero % 3 == 0) {
+      console.log("Fizz")
+    }
+  
+  }
+  console.log(fizzBuzz("a"));
+  
+
+  
 
  // limite de velocidad
  /**

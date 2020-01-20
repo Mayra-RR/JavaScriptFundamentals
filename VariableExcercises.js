@@ -1,20 +1,23 @@
 // Madame zazu
-//let city = "Vancouver";
-//let children = "sin";
-//let husbands;
-//let work = "Google";
-//let award = "Diseño";
-//let age = 35;
+let city = "Vancouver";
+let work = "Google.";
+let award = "Diseño";
+let pets = "mascotas"
+let age = 35;
 
-//const MadameZazuPrediction = "A la edad de " + age + " voy a vivir en " + city 
-//+ " " + " trabajando en " + work 
+const MadameZazuPrediction = "1. A la edad de " + age + " voy a vivir en " + city 
++ " con mis " + pets + " trabajando en " + work 
 
-//console.log(MadameZazuPrediction);
+console.log(MadameZazuPrediction);
 
-//function AgeCalculator(birthYear, actualYear){
-//    return actualYear - birthYear
-// }
-//    console.log("Tú edad es", AgeCalculator(1990, 2020));
+//Calculadora Edad
+
+function AgeCalc(birthYear, actualYear){
+    return actualYear - birthYear
+ }
+
+ console.log("2. Tú edad es", AgeCalc(1990, 2020));
+
 
 // Calculadora de figuras geometricas.
 
@@ -45,3 +48,14 @@ do{
     i++;
 }
 while(i <= 10)
+
+
+//Tablas de Multiplicar
+
+
+for(i = 1; i <= 10; i++){    
+    console.log("Tabla del ",i);
+    for(j = 1; j <= 10; j++){    
+        console.log(i, "*", j, "=", i*j);
+    }
+}
